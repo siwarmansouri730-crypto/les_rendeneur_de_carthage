@@ -1,1 +1,76 @@
- Hello tcig!
+/* Style global de la page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Le conteneur principal (Cadre blanc au centre) */
+.container {
+    background-color: #ffffff;
+    max-width: 800px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/* 1. Bloc Image (Haut) */
+.image-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 2. Bloc Texte (Milieu) */
+.text-section {
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #f8fafc;
+    border-left: 5px solid #003366; /* Bleu CNAM */
+    border-radius: 4px;
+}
+
+.text-section h1 {
+    color: #003366;
+    margin-top: 0;
+}
+
+.text-section p {
+    color: #555555;
+    font-size: 1.1rem;
+}
+
+/* 3. Bloc Vidéo (Bas) */
+.video-section {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.video-section h2 {
+    color: #2e7d32; /* Vert Santé */
+}
+
+.video-section video {
+    width: 100%;
+    max-width: 550px;
+    border-radius: 8px;
+}
+
+/* 4. Footer (Pied de page) */
+footer {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+    color: #777777;
+    font-size: 0.9rem;
+}
